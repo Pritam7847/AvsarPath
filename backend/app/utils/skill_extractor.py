@@ -30,7 +30,10 @@ DOMAIN_KEYWORDS = {
 def _get_nlp():
     try:
         import spacy
-        return spacy.load("en_core_web_sm")
+        try:
+            return spacy.load("en_core_web_sm")
+        except OSError:
+            return spacy.blank("en")
     except Exception:
         return None
 
