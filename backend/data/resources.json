@@ -1,0 +1,122 @@
+{
+  "categories": [
+    {
+      "id": "communities",
+      "title": "Communities & Servers",
+      "description": "Where Gen Z actually discovers opportunities",
+      "items": [
+        {
+          "name": "Disboard",
+          "url": "https://disboard.org",
+          "type": "Discord discovery",
+          "tip": "Search '[your stack] india' or 'internships' — join 2–3 active servers only."
+        },
+        {
+          "name": "GitHub Explore",
+          "url": "https://github.com/explore",
+          "type": "Open source",
+          "tip": "Filter good-first-issue repos from startups — PRs beat cold applications."
+        },
+        {
+          "name": "Indie Hackers",
+          "url": "https://www.indiehackers.com",
+          "type": "Startup community",
+          "tip": "Comment on build logs; founders hire from engaged builders."
+        },
+        {
+          "name": "Devfolio",
+          "url": "https://devfolio.co",
+          "type": "Hackathons",
+          "tip": "Hackathon teams often become internship referrals."
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Learning Resources",
+      "description": "Free & high-signal paths",
+      "items": [
+        {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org",
+          "type": "Full stack",
+          "tip": "Ship certifications as projects on GitHub, not just badges."
+        },
+        {
+          "name": "Frontend Mentor",
+          "url": "https://www.frontendmentor.io",
+          "type": "Frontend",
+          "tip": "Turn challenges into portfolio case studies with before/after."
+        },
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn",
+          "type": "Data / ML",
+          "tip": "Micro-courses + notebooks = proof for AI roles."
+        },
+        {
+          "name": "The Odin Project",
+          "url": "https://www.theodinproject.com",
+          "type": "Web dev",
+          "tip": "Project-heavy — ideal for students who learn by building."
+        }
+      ]
+    },
+    {
+      "id": "platforms",
+      "title": "Discovery Platforms",
+      "description": "Beyond traditional job boards",
+      "items": [
+        {
+          "name": "Wellfound (AngelList)",
+          "url": "https://wellfound.com",
+          "type": "Startups",
+          "tip": "Startup internships appear here before big portals."
+        },
+        {
+          "name": "YC Work at a Startup",
+          "url": "https://www.workatastartup.com",
+          "type": "YC startups",
+          "tip": "Short applications — tailor with product-specific hooks."
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com",
+          "type": "Networking",
+          "tip": "Use for DMs & content, not only Easy Apply spam."
+        },
+        {
+          "name": "X (Twitter)",
+          "url": "https://x.com",
+          "type": "Build in public",
+          "tip": "Follow founders + '#buildinginpublic' for early role signals."
+        }
+      ]
+    },
+    {
+      "id": "hackathons",
+      "title": "Hackathons & Events",
+      "description": "Compressed networking + portfolio",
+      "items": [
+        {
+          "name": "IDE Bootcamp",
+          "url": "https://bootcamp.mic.gov.in/",
+          "type": "Student hackathons",
+          "tip": "Best for beginners to start their journey in Hackathons."
+        },
+        {
+          "name": "IIT's Hackathon",
+          "url": "https://www.google.com/search?q=iit+hackathons&sca_esv=4439ad8e80b685b8&sxsrf=ANbL-n4R6pUNQP_nkyZ98ygWgJuYl0iNQA%3A1780153813754&ei=1f0aapvcLY6M4-EP8LiV8Q0&biw=1536&bih=695&oq=iit+hacka&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWlpdCBoYWNrYSoCCAAyChAAGIAEGBQYhwIyBRAAGIAEMgUQABiABDILEAAYgAQYigUYkQIyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSJQVUNcDWIgNcAB4ApABAJgB0gKgAboMqgEHMC4xLjMuMrgBAcgBAPgBAZgCB6ACsg3CAgQQABhHwgIEECMYJ8ICDRAAGIAEGIoFGEMYsQPCAg0QLhiABBgUGIcCGLEDwgINEC4YgAQYigUYQxixA8ICCBAuGIAEGLEDwgINEC4YQxixAxiABBiKBcICChAAGIAEGIoFGEPCAhwQLhhDGLEDGIAEGIoFGJcFGNwEGN4EGOAE2AEBwgIFEC4YgATCAgcQABiABBgKmAMAiAYBkAYIugYGCAEQARgUkgcHMS4xLjMuMqAHqjmyBwcwLjEuMy4yuAeiDcIHBzItMi40LjHIB1iACAE&sclient=gws-wiz-serp",
+          "type": "Global hackathons",
+          "tip": "Win or not — submission URL is outreach proof."
+        },
+        {
+          "name": "Smart India Hackathon",
+          "url": "https://www.sih.gov.in",
+          "type": "India",
+          "tip": "Government + industry mentors = referral paths."
+        }
+      ]
+    }
+  ]
+}
