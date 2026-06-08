@@ -125,7 +125,7 @@ cd frontend
 npm run build
 ```
 
-Set `VITE_API_URL` to your production API URL (e.g. `https://api.avsarpath.com`).
+Set `VITE_API_URL` to your production API URL, for example `https://avsarpath.onrender.com`.
 
 ### Backend (Railway / Render / Fly.io)
 
