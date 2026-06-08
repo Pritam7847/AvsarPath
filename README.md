@@ -100,6 +100,24 @@ CORS_ORIGINS=http://localhost:5173
 
 ## Deployment
 
+### Render
+
+This repo is ready for Render monorepo deployment with two services:
+
+- `avsarpath-backend`: Docker web service using `backend/Dockerfile`
+- `avsarpath-frontend`: static site using the `frontend` folder
+
+The backend container uses `PORT` at runtime, and the frontend reads `VITE_API_URL` to call the API.
+
+Render service environment variables:
+
+- `GROQ_API_KEY`
+- `GROQ_MODEL`
+- `CORS_ORIGINS`
+- `VITE_API_URL`
+
+Use the root `render.yaml` file included in this repo to configure both services.
+
 ### Frontend (Vercel / Netlify)
 
 ```bash
@@ -124,7 +142,7 @@ WORKDIR /app
 COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ .
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
 ```
 
 ## Privacy

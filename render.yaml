@@ -1,0 +1,23 @@
+services:
+  - type: web_service
+    name: avsarpath-backend
+    env: docker
+    dockerfilePath: backend/Dockerfile
+    plan: free
+    startCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"
+    envVars:
+      - key: CORS_ORIGINS
+        value: "https://your-frontend-url.onrender.com"
+      - key: GROQ_MODEL
+        value: "llama-3.3-70b-versatile"
+
+  - type: static_site
+    name: avsarpath-frontend
+    env: static
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: "https://your-backend-url.onrender.com"
