@@ -7,7 +7,7 @@ services:
     startCommand: sh -c "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"
     envVars:
       - key: CORS_ORIGINS
-        value: "https://your-frontend-url.onrender.com"
+        value: "http://localhost:5173,http://127.0.0.1:5173,https://avsar-path.vercel.app"
       - key: GROQ_MODEL
         value: "llama-3.3-70b-versatile"
 
